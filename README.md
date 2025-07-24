@@ -19,11 +19,11 @@ define edges like mode 1,2)
 * I use Shunting-Yard Algorithm. 
 ### Which operators can you use in Shunting Yard Algorithm?
 * Firstly e is for euler number and pi is for pi number.
-* + for insertion
-* - for substraction
-* * for multiplication
-* / for division
-* ^ for as a pow function ( in c)
+* +: for insertion
+* -: for substraction
+* *: for multiplication
+* /: for division
+* ^: for as a pow function ( in c)
 * ( and ) for process prioty
 * sin,cos,tan,cot,sec,csc for trigonometric functions
 * arccos,arcsin,arctan for inverse trigonometric functions ( I forgot to add arccot :D )
