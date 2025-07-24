@@ -17,3 +17,16 @@ define edges like mode 1,2)
 · For matrix entry, I used double pointer to create dynamic result matrix and pointer to create result matrix.   
 # How does calculating works after parsing?
 · I use Shunting-Yard Algorithm. 
+# Which operators can you use in Shunting Yard Algorithm?
+· Firstly e is for euler number and pi is for pi number.
+· + for insertion
+· - for substraction
+· * for multiplication
+· / for division
+· ^ for as a pow function ( in c)
+. ( and ) for process prioty
+· sin,cos,tan,cot,sec,csc for trigonometric functions
+· arccos,arcsin,arctan for inverse trigonometric functions ( I forgot to add arccot :D )
+· log_ and ln for logarithmic functions
+so if you choose mod 11,you can write something like e^(log_7(45+4-7*6)-ln(e/2))+sin(pi/2) and result will be 3 ( you can do math yourself.)
+Also if you choose mode 1,2 or 3 ; you can write something like e^sin(x/2)-log_5(3) then you enter edges like [-2,0] and the answer will be -0.783567
